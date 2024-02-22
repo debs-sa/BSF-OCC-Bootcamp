@@ -1,8 +1,8 @@
 //U = untracked
 //M = modified
-// commit in each step
+// commit after each step
 //git add - staging area
-// git commit - 
+// git commit
 
 Configuration Commands
 
@@ -24,3 +24,14 @@ git add filename - stages file
 git commit -m "commit message" - committing files in the staging area
 git rm --cached filename // remove a file from the staging area
 git add . // add everything
+
+git reset // remores all files in the staging area
+
+git log // see commit history
+git log --oneline // shortens commit history
+
+git branch nameofthebranch //create a new branch
+git branch -a  //list all branches
+git switch nameofthebranch // switch to the branch
+git checkout nameofthebranch // checkout the branch
+
