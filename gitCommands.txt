@@ -26,6 +26,11 @@ git rm --cached filename // remove a file from the staging area
 git add . // add everything
 git switch master // switch to master branch
 
+git reset - removes all files in the staging area
+
+git log - see commit history
+git log --oneline - shortens commit history
+
 //when merging make sure you are in the branch you want to receive the merge // example: in master branch = git merge nameofthebranch
 
 Branching
@@ -45,3 +50,8 @@ git remote -v
 
 git branch -M main //rename master branch to main branch
 git push -u origin main //pushing from origin link to main branch
+
+Remote Repositories
+
+git remote add origin URLtoRemoteRepo //link remote repo to local repositorygit branch -M main - renaming "master" to "main"
+git push -u origin main - pushing into origin main branch
