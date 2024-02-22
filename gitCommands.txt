@@ -1,4 +1,5 @@
 //U = untracked
+//M = modified
 // commit in each step
 //git add - staging area
 // git commit - 
@@ -9,7 +10,17 @@ git config --global user.name your-username //to change username
 git config --global user.email your-email //to change email
 git config user.name // to check username
 git config user.email // to check email
+git rm --cached namefile // 
+git commit -m "comment" // commit to master branch
 
 Creating Repos
 
 git init // inititalize local git repo
+
+Commiting
+
+git status - shows which files are in the staging area
+git add filename - stages file
+git commit -m "commit message" - committing files in the staging area
+git rm --cached filename // remove a file from the staging area
+git add . // add everything
