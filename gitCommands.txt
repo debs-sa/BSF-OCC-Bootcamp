@@ -1,8 +1,5 @@
 //U = untracked
 //M = modified
-// commit after each step
-//git add - staging area
-// git commit
 
 Configuration Commands
 
@@ -20,6 +17,7 @@ git init // inititalize local git repo
 Commiting
 
 git status - shows which files are in the staging area
+//git add - staging area
 git add filename - stages file
 git commit -m "commit message" - committing files in the staging area
 git rm --cached filename // remove a file from the staging area
