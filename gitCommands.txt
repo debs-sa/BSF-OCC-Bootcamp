@@ -24,3 +24,15 @@ git add filename - stages file
 git commit -m "commit message" - committing files in the staging area
 git rm --cached filename // remove a file from the staging area
 git add . // add everything
+git switch master // switch to master branch
+
+//when merging make sure you are in the branch you want to receive the merge // example: in master branch = git merge nameofthebranch
+
+Branching
+
+git branch newBranchName //create a new branch
+git branch -a //list all branches
+git switch branchname //switches to a branch
+git merge branchName // merges branch into branch we are oon
+git branch -d branchname //deletes branch if merged in master branch
+git branch -D branchname //deletes branch if merged or not
