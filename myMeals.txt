@@ -1,2 +1,3 @@
 Breakfast: French Toast
 Lunch: Spaghetti
+Dinner: Sushi
