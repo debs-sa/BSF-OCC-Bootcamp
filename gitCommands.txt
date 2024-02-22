@@ -1,8 +1,8 @@
 //U = untracked
 //M = modified
-// commit in each step
+// commit after each step
 //git add - staging area
-// git commit - 
+// git commit
 
 Configuration Commands
 
