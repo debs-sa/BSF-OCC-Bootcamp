@@ -36,3 +36,12 @@ git switch branchname //switches to a branch
 git merge branchName // merges branch into branch we are oon
 git branch -d branchname //deletes branch if merged in master branch
 git branch -D branchname //deletes branch if merged or not
+
+git checkout commitID //seeing state of the code in a particular commit
+
+git remote add origin https://github.com/debs-sa/BSF-OCC-Bootcamp.git //after create a repository online
+git remote -v
+
+
+git branch -M main //rename master branch to main branch
+git push -u origin main //pushing from origin link to main branch
