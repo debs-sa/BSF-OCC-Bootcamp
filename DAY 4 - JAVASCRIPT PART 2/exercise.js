@@ -12,3 +12,4 @@ let num2 = 7;
 
 checkEvenorOdd(num1);
 checkEvenorOdd(num2);
+
